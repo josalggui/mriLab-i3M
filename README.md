@@ -12,6 +12,12 @@ Graphical environment based on MaRCoS to easily control low-field MRI scanners.
 ## Autotuning
 Device controlled by arduino and nanoVNA to do automatic tuning/matching. It is integrated into MarGE.
 
+## Interlock
+Device that interrupt the current source of Barthel GPA in case current is too high. It also remotely control the Barthel GPA and RFPA by serial port.
+
+## RF coil designer
+Code in matlab to design rf coils. Different rf coils geometries will be placed in different branches.
+
 <!--
 **mriLab-i3M/mriLab-i3M** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
